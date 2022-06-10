@@ -3,11 +3,15 @@ Given a string of text, return true or false indicating whether or not the text 
 e.g palindromeChecker('racecar') // will return true
 */
 
-
+//P: given a string of text
+//R: 
 
 
 function palindromeChecker(text) {
-    v// Code goes here
+    let reversedText = text.toLowerCase()
+    .split('').reverse().join('')
+
+    return text === reversedText 
 }
 
 
